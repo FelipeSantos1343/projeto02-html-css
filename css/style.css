@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img{
+    max-width:100%;
+    max-height: 100%;
+}
+ul{
+   list-style-type: none; 
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 1.5em;
+    color: #333;
+}
+p{
+    font-size: 1em;
+    color: #777;
+}
+/* cabecalho */
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: #13c7ae;
+    /* background: linear-gradient(red, blue); */
+}
+.logo a{
+    width: 221px;
+    height: 48px;
+    float: left;
+    font-size: 0;
+    background: url(../img/MicrosoftTeams-image\ \(logo\).png);/*../ para "voltar" uma pasta na parte anterior*/
+}
+.cabecalho form{
+    width: 30%;
+    float: right;
+}
+.cabecalho form input[type="busca"]{
+        width: 85%;
+        float: left;
+        padding: 15px 10px 15px 10px;
+        border-radius: 15px 0px 0px 15px;
+}
+.cabecalho button{
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    background-color: #0cae98;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+}
+/*menu de navegação*/
+.menu{
+    width: 100%;
+    float: left;
+    background-color: black;
+    padding: 18px 8%; /*Padding é um espaçamento interno
+    */ 
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    color: #9d9d9d;
+    margin-right: 25px;
+    font-size: 18px;
+}
+.menu li a:hover {
+    color: #fff;
+    font-size: 23px;
+}
+/*Social icons*/
+.social-icons{
+    float: right;
+}
+.social-icons a{
+    color: white;
+    float: left;
+    margin-left: 15px;
+}
+/*principal*/
+.principal{
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+}
+.btn-facebook :hover{
+    color: #3b5998;
+}
+.btn-twitter :hover{
+    color: #1D9BF0;
+}
+.btn-youtube :hover{
+    color: #EA4335;
+}
+.sobre{
+    width: 70%;
+    float: left;
+    padding: 0px 20px 20px 0px; 
+}
+.sobre h2{
+    margin-bottom: 10px;
+}
+.sobre img{
+    width: 50%;
+    float: left;
+    margin: 0px 15px 15px 0px;
+}
+.sobre p{
+    text-align: justify;
+}
+/*sobre nos*/
+.onde_estamos{
+    width: 30%;
+    float: right;
+    padding: 20px 30px;
+    background-color: #ace4e4;
+    border-radius: 5px;
+}
+.onde_estamos h3{
+    color: #252323;
+    font-size: larger;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.onde_estamos li{
+    color: #747171;
+    padding: 3px;
+}
+.onde_estamos iframe{
+    width: 100%;
+    height: 250px;
+    margin: 20px 0px;
+}
+/*Newsletters*/
+.newsletter{
+    width: 100%;
+    background-color: black;
+    float: left;
+    padding: 50px 8%;
+}
+.newsletter h3{
+    font-size: 1.8 em;
+    color: white;
+    padding-bottom: 5px;
+    font-size: xx-large;
+}
+.newsletter p{
+    font-size: 1.2 em;
+    padding-bottom: 5px;
+    color: white;
+}
+.newsletter form{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.newsletter form input{
+    width: 40%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: white;
+    background-color: initial;
+    
+}
+.newsletter button{
+    width: 15%;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*footer*/
+.rodape{
+    width: 100%;
+    float: left;
+    background-color: #13c7ae;
+    padding: 25px 8%
+    ;
+}
+.rodape p{
+    color: white;
+}
+/*Produtos*/
+.list_prod{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.prod{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 170px;
+    background-color: #ace4e4;
+    border-radius: 5px;
+}
+
+.prod img{
+    width: 150px;
+    height: 100px;
+    display: flex;
+    border-radius: 5px;
+
+}
+.prod p{
+    color: #000000;
+    display: flex;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.stars{
+    color: yellow;
+}
+.produtos{
+    float: left;
+    padding: 20px 8%;
+}
+.rodape_prod{
+    width: 100%;
+    float: left;
+    background-color: #13c7ae;
+    padding: 35px 8%;
+}
+.rodape_prod p{
+    color: white;
+}
+.barra{
+    width: 100%;
+    padding: 5px;
+    background-color: #000000;
+}
+.servicos{
+    float: left;
+    padding: 20px 8%;
+}
+.list-serv{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.serv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 350px;
+    background-color: #ace4e4;
+    border-width: 50px;
+    border-color: #8a06f0;
+}
+.serv img{
+    height: 220px;
+    width: 280px;
+}
+.serv p{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    margin: 15px;
+    padding: 7px;
+    border-radius: 5px;
+}
